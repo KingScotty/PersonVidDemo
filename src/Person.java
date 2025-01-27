@@ -1,6 +1,13 @@
 public class Person {
-private string ID;
-private string firstname;
-private string lastname;
+private String ID;
+private String firstname;
+private String lastname;
 private int YOB;
+
+public Person(String ID, String firstname, String lastname, int YOB) {
+    this.ID = ID;
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.YOB = YOB;
+
 }
